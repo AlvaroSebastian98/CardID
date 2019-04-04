@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_dni_width">380dp</dimen>
+    <dimen name="app_dni_height">40dp</dimen>
+    <dimen name="app_ocupacion">35sp</dimen>
+    <dimen name="main_nombre_size">55sp</dimen>
+    <dimen name="main_logo_with">320dp</dimen>
+    <dimen name="main_logo_height">100dp</dimen>
+    <dimen name="main_foto_width2">300dp</dimen>
+    <dimen name="main_foto_height2">300dp</dimen>
+</resources>

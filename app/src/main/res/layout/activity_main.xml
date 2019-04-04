@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackround"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/main_logo_with"
+            android:layout_height="@dimen/main_logo_height"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/ic_logo"
+            android:textSize="12dp"/>
+
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="@dimen/main_foto_width2"
+            android:layout_height="@dimen/main_foto_height2"
+            android:layout_below="@+id/logo"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_foto"/>
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/foto"
+            android:layout_marginTop="25dp"
+            android:textColor="#ffff"
+            android:textSize="@dimen/main_nombre_size"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="DANIEL JONES"/>
+
+        <TextView
+            android:id="@+id/ocupacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff"
+            android:textSize="@dimen/app_ocupacion"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/app_cargo"/>
+
+        <TextView
+            android:id="@+id/DNI"
+            android:layout_width="@dimen/app_dni_width"
+            android:layout_height="@dimen/app_dni_height"
+            android:layout_below="@+id/ocupacion"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="DNI: 72435243"/>
+
+        <TextView
+            android:id="@+id/correo"
+            android:layout_width="@dimen/app_dni_width"
+            android:layout_height="@dimen/app_dni_height"
+            android:layout_below="@+id/DNI"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="Correo: daniel.jones@gmail.com"/>
+
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="@dimen/app_dni_width"
+            android:layout_height="@dimen/app_dni_height"
+            android:layout_below="@+id/correo"
+            android:textColor="#ffff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:text="Teléfono: 973426372"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="@drawable/ic_codigo_barra"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
